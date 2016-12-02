@@ -2,13 +2,19 @@
   "name": "atom-mocha-snippets",
   "main": "./lib/atom-mocha-snippets",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Snippets for the javascript BDD framework Mocha: https://mochajs.org/",
   "keywords": [
+    "mocha",
+    "javascript",
+    "bdd",
+    "snippets",
+    "tdd",
+    "chai"
   ],
   "activationCommands": {
     "atom-workspace": "atom-mocha-snippets:toggle"
   },
-  "repository": "https://github.com/atom/atom-mocha-snippets",
+  "repository": "https://github.com/linesmerrill/atom-mocha-snippets",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
