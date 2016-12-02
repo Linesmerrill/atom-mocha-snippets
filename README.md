@@ -2,7 +2,7 @@
 
 Snippets for Mocha in Atom.
 
-![](images/usage-gif.gif)
+![](https://raw.githubusercontent.com/Linesmerrill/atom-mocha-snippets/master/images/usage.gif)
 
 ## Snippets
 
