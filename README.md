@@ -1,4 +1,6 @@
 [![badge][apm]][package]
+[![npm](https://img.shields.io/npm/v/package.svg?style=flat-square)](https://www.npmjs.org/package/package)
+[![apm](https://img.shields.io/apm/dm/package.svg?style=flat-square)](https://atom.io/packages/package)
 
 # Mocha Snippets
 
