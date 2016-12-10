@@ -19,5 +19,14 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "configSchema": {
+   "plugins": {
+     "type": "object",
+     "properties": {}
+   },
+   "autoToggle": {
+     "type": "boolean",
+     "default": true
+   },
   "dependencies": {}
 }
