@@ -1,4 +1,4 @@
-[![badge][apm]][package]
+[![badge][apm]][atom-mocha-snippets]
 
 # Mocha Snippets
 
