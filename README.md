@@ -1,4 +1,5 @@
 [![badge][apm]][package]
+[![apm](https://img.shields.io/apm/dm/atom-mocha-snippets.svg?style=flat-square)](https://atom.io/packages/atom-mocha-snippets)
 
 # Mocha Snippets
 
