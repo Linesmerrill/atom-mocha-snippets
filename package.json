@@ -1,7 +1,7 @@
 {
   "name": "atom-mocha-snippets",
   "main": "./lib/atom-mocha-snippets",
-  "version": "0.3.2",
+  "version": "0.2.1",
   "description": "Snippets for the javascript BDD framework Mocha: https://mochajs.org/",
   "keywords": [
     "mocha",
