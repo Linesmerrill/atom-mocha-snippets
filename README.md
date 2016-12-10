@@ -1,3 +1,5 @@
+[![apm install {atom-mocha-snippets}](https://apm-badges.herokuapp.com/apm/{atom-mocha-snippets}.svg)](https://atom.io/packages/{atom-mocha-snippets})
+
 # Mocha Snippets
 
 Snippets for Mocha in Atom.
