@@ -6,6 +6,9 @@ Snippets for Mocha in Atom.
 
 ![](https://raw.githubusercontent.com/Linesmerrill/atom-mocha-snippets/master/images/usage.gif)
 
+## Install
+`apm install atom-mocha-snippets` or search “snippets” under packages within Atom.
+
 ## Snippets
 
 ### describe
@@ -88,10 +91,6 @@ this.retries(integer);
 ```
 this.timeout(milliseconds);
 ```
-
-Install
--------
-`apm install atom-mocha-snippets` or search “snippets” under packages within Atom.
 
 License
 -------
