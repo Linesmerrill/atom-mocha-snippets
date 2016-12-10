@@ -24,9 +24,10 @@
       "type": "object",
       "properties": {}
     },
-    "autoToggle": {
+    "toggleSemicolons": {
       "type": "boolean",
-      "default": true
+      "default": true,
+      "description": "Use this to turn off automatically adding semicolons"
     },
     "dependencies": {}
   }
