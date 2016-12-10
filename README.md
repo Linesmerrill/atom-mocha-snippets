@@ -88,3 +88,14 @@ this.retries(integer);
 ```
 this.timeout(milliseconds);
 ```
+
+Install
+-------
+`apm install atom-mocha-snippets` or search “snippets” under packages within Atom.
+
+License
+-------
+[MIT] © [Merrill Lines]
+
+[apm]:              https://img.shields.io/apm/v/atom-mocha-snippets.svg?style=flat-square
+[package]:          https://atom.io/packages/atom-mocha-snippets
