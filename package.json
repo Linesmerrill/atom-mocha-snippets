@@ -1,34 +1,33 @@
 {
-    "name": "atom-mocha-snippets",
-    "main": "./lib/atom-mocha-snippets",
-    "version": "0.2.1",
-    "description": "Snippets for the javascript BDD framework Mocha: https://mochajs.org/",
-    "keywords": [
-        "mocha",
-        "javascript",
-        "bdd",
-        "snippets",
-        "tdd",
-        "chai"
-    ],
-    "activationCommands": {
-        "atom-workspace": "atom-mocha-snippets:toggle"
+  "name": "atom-mocha-snippets",
+  "main": "./lib/atom-mocha-snippets",
+  "version": "0.3.0",
+  "description": "Snippets for the javascript BDD framework Mocha: https://mochajs.org/",
+  "keywords": [
+    "mocha",
+    "javascript",
+    "bdd",
+    "snippets",
+    "tdd",
+    "chai"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-mocha-snippets:toggle"
+  },
+  "repository": "https://github.com/linesmerrill/atom-mocha-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "configSchema": {
+    "plugins": {
+      "type": "object",
+      "properties": {}
     },
-    "repository": "https://github.com/linesmerrill/atom-mocha-snippets",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
+    "autoToggle": {
+      "type": "boolean",
+      "default": true
     },
-    "configSchema": {
-        "plugins": {
-            "type": "object",
-            "properties": {}
-        },
-        "autoToggle": {
-            "type": "boolean",
-            "default": true
-        },
-        "dependencies": {}
-    }
-
+    "dependencies": {}
+  }
 }
