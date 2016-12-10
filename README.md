@@ -1,6 +1,6 @@
 [![badge][apm]][package]
-[![npm](https://img.shields.io/npm/v/package.svg?style=flat-square)](https://www.npmjs.org/package/package)
-[![npm](https://img.shields.io/npm/dm/package.svg?style=flat-square)](https://www.npmjs.org/package/package)
+[![npm](https://img.shields.io/npm/v/[package].svg?style=flat-square)](https://www.npmjs.org/[package]/[package])
+[![npm](https://img.shields.io/npm/dm/[package].svg?style=flat-square)](https://www.npmjs.org/[package]/[package])
 
 # Mocha Snippets
 
