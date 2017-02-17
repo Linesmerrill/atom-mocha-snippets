@@ -1,8 +1,8 @@
 {
   "name": "atom-mocha-snippets",
   "main": "./lib/atom-mocha-snippets",
-  "version": "0.4.1",
-  "description": "Snippets for the javascript BDD framework Mocha: https://mochajs.org/",
+  "version": "0.4.2",
+  "description": "Snippets for the javascript BDD framework Mocha: https://mochajs.org/. It works based on language detection, ES5 for javascript language and ES6 for babel-javascript language",
   "keywords": [
     "mocha",
     "javascript",
