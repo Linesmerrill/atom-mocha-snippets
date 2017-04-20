@@ -10,6 +10,8 @@ Snippets for Mocha in Atom.
 ## Install
 `apm install atom-mocha-snippets` or search “snippets” under packages within Atom.
 
+**Note:** Atom requires a restart after settings are changed for them to take effect.
+
 ## Snippets
 
 ### describe
