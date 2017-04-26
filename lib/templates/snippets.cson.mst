@@ -1,16 +1,16 @@
 '.source.js':
   'mocha describe':
     'prefix': 'describe'
-    'body': 'describe(\{{quoteDelimiter}}$1\{{quoteDelimiter}}, function(){\n\t$2\n}){{expressionTerminator}}\n$3'
+    'body': 'describe({{quoteDelimiter}}$1{{quoteDelimiter}}, function(){\n\t$2\n}){{expressionTerminator}}\n$3'
   'mocha context':
     'prefix': 'context'
-    'body': 'context(\{{quoteDelimiter}}$1\{{quoteDelimiter}}, function(){\n\t$2\n}){{expressionTerminator}}\n$3'
+    'body': 'context({{quoteDelimiter}}$1{{quoteDelimiter}}, function(){\n\t$2\n}){{expressionTerminator}}\n$3'
   'mocha it':
     'prefix': 'it'
-    'body': 'it(\{{quoteDelimiter}}$1\{{quoteDelimiter}}, function(){\n\t$2\n}){{expressionTerminator}}\n$3'
+    'body': 'it({{quoteDelimiter}}$1{{quoteDelimiter}}, function(){\n\t$2\n}){{expressionTerminator}}\n$3'
   'mocha specify':
     'prefix': 'specify'
-    'body': 'specify(\{{quoteDelimiter}}$1\{{quoteDelimiter}}, function(){\n\t$2\n}){{expressionTerminator}}\n$3'
+    'body': 'specify({{quoteDelimiter}}$1{{quoteDelimiter}}, function(){\n\t$2\n}){{expressionTerminator}}\n$3'
   'mocha before':
     'prefix': 'before'
     'body': 'before(function(){\n\t$2\n}){{expressionTerminator}}\n$3'
@@ -25,7 +25,7 @@
     'body': 'afterEach(function(){\n\t$2\n}){{expressionTerminator}}\n$3'
   'mocha pending':
     'prefix': 'pending'
-    'body': 'it(\{{quoteDelimiter}}$1\{{quoteDelimiter}}){{expressionTerminator}}'
+    'body': 'it({{quoteDelimiter}}$1{{quoteDelimiter}}){{expressionTerminator}}'
   'mocha retries':
     'prefix': 'retries'
     'body': 'this.retries(${1:integer}){{expressionTerminator}}'
