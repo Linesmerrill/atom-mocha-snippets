@@ -12,12 +12,19 @@ Snippets for Mocha in Atom.
 
 **Note:** Atom requires a restart after settings are changed for them to take effect.
 
+## Settings
+Toggle Double Quotes: [Default: single quotes] Allows the user to toggle between single and double quotes.
+
+Toggle Semicolons: [Default: with semicolons] Allows the user to toggle between having semicolons on or off.
+
+**Note:** Atom requires a restart after settings are changed for them to take effect.
+
 ## Snippets
 
 ### describe
 
 ```
-describe("", function(){
+describe('', function(){
 
 });
 ```
@@ -25,7 +32,7 @@ describe("", function(){
 ### context
 
 ```
-context("", function(){
+context('', function(){
 
 });
 ```
@@ -33,14 +40,14 @@ context("", function(){
 ### it
 
 ```
-it("", function(){
+it('', function(){
 
 });
 ```
 ### specify
 
 ```
-specify("", function(){
+specify('', function(){
 
 });
 ```
@@ -80,7 +87,7 @@ afterEach(function(){
 ### pending
 
 ```
-it("");
+it('');
 ```
 
 ### retries
@@ -94,6 +101,12 @@ this.retries(integer);
 ```
 this.timeout(milliseconds);
 ```
+
+## Contributors:
+
+* @coichedid - Added ES6 support
+
+* @thoiberg - Added configurable settings for semicolons
 
 License
 -------
