@@ -10,7 +10,7 @@
     'body': 'it("$1", function(){\n\t$2\n});\n$3'
   'mocha specify':
     'prefix': 'specify'
-    'body': 'specify("$1", function(){\n\t$2\n});\n$3'
+    'body': 'specify(\"$1\", function(){\n\t$2\n});\n$3'
   'mocha before':
     'prefix': 'before'
     'body': 'before(function(){\n\t$2\n});\n$3'

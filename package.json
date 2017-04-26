@@ -25,6 +25,11 @@
       "type": "boolean",
       "default": true,
       "description": "When enabled adds semicolons to the end of the expressions"
+    },
+    "toggleDoubleQuotes": {
+      "type": "boolean",
+      "default": false,
+      "description": "When enabled changes the default quotes to double quotes (i.e. \")"
     }
   },
   "dependencies": {
