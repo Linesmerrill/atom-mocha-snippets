@@ -11,9 +11,6 @@
     "tdd",
     "chai"
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-mocha-snippets:toggle"
-  },
   "repository": "https://github.com/linesmerrill/atom-mocha-snippets",
   "license": "MIT",
   "engines": {
@@ -27,8 +24,10 @@
     "toggleSemicolons": {
       "type": "boolean",
       "default": true,
-      "description": "Use this to turn off automatically adding semicolons"
-    },
-    "dependencies": {}
+      "description": "When enabled adds semicolons to the end of the expressions"
+    }
+  },
+  "dependencies": {
+    "mustache": "^2.3.0"
   }
 }

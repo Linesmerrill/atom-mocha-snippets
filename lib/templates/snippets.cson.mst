@@ -1,0 +1,34 @@
+'.source.js':
+  'mocha describe':
+    'prefix': 'describe'
+    'body': 'describe("$1", function(){\n\t$2\n}){{expressionTerminator}}\n$3'
+  'mocha context':
+    'prefix': 'context'
+    'body': 'context("$1", function(){\n\t$2\n}){{expressionTerminator}}\n$3'
+  'mocha it':
+    'prefix': 'it'
+    'body': 'it("$1", function(){\n\t$2\n}){{expressionTerminator}}\n$3'
+  'mocha specify':
+    'prefix': 'specify'
+    'body': 'specify("$1", function(){\n\t$2\n}){{expressionTerminator}}\n$3'
+  'mocha before':
+    'prefix': 'before'
+    'body': 'before(function(){\n\t$2\n}){{expressionTerminator}}\n$3'
+  'mocha after':
+    'prefix': 'after'
+    'body': 'after(function(){\n\t$2\n}){{expressionTerminator}}\n$3'
+  'mocha beforeEach':
+    'prefix': 'beforeEach'
+    'body': 'beforeEach(function(){\n\t$2\n}){{expressionTerminator}}\n$3'
+  'mocha afterEach':
+    'prefix': 'afterEach'
+    'body': 'afterEach(function(){\n\t$2\n}){{expressionTerminator}}\n$3'
+  'mocha pending':
+    'prefix': 'pending'
+    'body': 'it("$1"){{expressionTerminator}}'
+  'mocha retries':
+    'prefix': 'retries'
+    'body': 'this.retries(${1:integer}){{expressionTerminator}}'
+  'mocha timeout':
+    'prefix': 'timeout'
+    'body': 'this.timeout(${1:milliseconds}){{expressionTerminator}}'
