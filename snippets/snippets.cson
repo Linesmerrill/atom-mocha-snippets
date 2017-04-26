@@ -1,13 +1,13 @@
 '.source.js':
   'mocha describe':
     'prefix': 'describe'
-    'body': 'describe("$1", function(){\n\t$2\n});\n$3'
+    'body': 'describe(\"$1\", function(){\n\t$2\n});\n$3'
   'mocha context':
     'prefix': 'context'
-    'body': 'context("$1", function(){\n\t$2\n});\n$3'
+    'body': 'context(\"$1\", function(){\n\t$2\n});\n$3'
   'mocha it':
     'prefix': 'it'
-    'body': 'it("$1", function(){\n\t$2\n});\n$3'
+    'body': 'it(\"$1\", function(){\n\t$2\n});\n$3'
   'mocha specify':
     'prefix': 'specify'
     'body': 'specify(\"$1\", function(){\n\t$2\n});\n$3'
@@ -25,7 +25,7 @@
     'body': 'afterEach(function(){\n\t$2\n});\n$3'
   'mocha pending':
     'prefix': 'pending'
-    'body': 'it("$1");'
+    'body': 'it(\"$1\");'
   'mocha retries':
     'prefix': 'retries'
     'body': 'this.retries(${1:integer});'
