@@ -29,7 +29,7 @@ describe('', function(){
 });
 ```
 
-### context
+### Context
 
 ```
 context('', function(){
