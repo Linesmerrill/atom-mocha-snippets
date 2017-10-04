@@ -21,7 +21,7 @@ Toggle Semicolons: [Default: with semicolons] Allows the user to toggle between 
 
 ## Snippets
 
-### describe
+### Describe
 
 ```
 describe('', function(){
@@ -29,7 +29,7 @@ describe('', function(){
 });
 ```
 
-### context
+### Context
 
 ```
 context('', function(){
