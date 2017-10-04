@@ -44,7 +44,7 @@ it('', function(){
 
 });
 ```
-### specify
+### Specify
 
 ```
 specify('', function(){
@@ -52,7 +52,7 @@ specify('', function(){
 });
 ```
 
-### before
+### Before
 
 ```
 before(function(){
