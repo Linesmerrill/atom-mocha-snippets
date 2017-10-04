@@ -37,7 +37,7 @@ context('', function(){
 });
 ```
 
-### it
+### It
 
 ```
 it('', function(){
