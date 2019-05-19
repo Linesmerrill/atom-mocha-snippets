@@ -108,6 +108,8 @@ this.timeout(milliseconds);
 
 * @thoiberg - Added configurable settings for semicolons
 
+* @th-we - Added Typescript support
+
 License
 -------
 [MIT] © [Merrill Lines]
