@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.ts':
   'mocha describe':
     'prefix': 'describe'
     'body': 'describe(\'$1\', function(){\n\t$2\n});\n$3'

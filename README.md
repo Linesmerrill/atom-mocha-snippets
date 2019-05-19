@@ -3,7 +3,7 @@
 
 # Mocha Snippets
 
-Snippets for Mocha in Atom.
+JavaScript/TypeScript snippets for Mocha in Atom.
 
 ![](https://raw.githubusercontent.com/Linesmerrill/atom-mocha-snippets/master/images/usage.gif)
 
