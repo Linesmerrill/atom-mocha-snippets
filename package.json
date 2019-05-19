@@ -1,15 +1,16 @@
 {
   "name": "atom-mocha-snippets",
   "main": "./lib/atom-mocha-snippets",
-  "version": "0.6.3",
-  "description": "Snippets for the javascript BDD framework Mocha: https://mochajs.org/. It works based on language detection, ES5 for javascript language and ES6 for babel-javascript language",
+  "version": "0.7.0",
+  "description": "Snippets for the Javascript/Typescript BDD framework Mocha: https://mochajs.org/. It works based on language detection, ES5 for JavaScript language and ES6 for Babel-JavaScript language",
   "keywords": [
     "mocha",
     "javascript",
     "bdd",
     "snippets",
     "tdd",
-    "chai"
+    "chai",
+    "typescript"
   ],
   "repository": "https://github.com/linesmerrill/atom-mocha-snippets",
   "license": "MIT",
