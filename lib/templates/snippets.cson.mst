@@ -1,4 +1,4 @@
-'.source.js':
+'.source.js, .source.ts':
   'mocha describe':
     'prefix': 'describe'
     'body': 'describe(\{{& quoteDelimiter}}$1\{{& quoteDelimiter}}, function(){\n\t$2\n}){{expressionTerminator}}\n$3'
